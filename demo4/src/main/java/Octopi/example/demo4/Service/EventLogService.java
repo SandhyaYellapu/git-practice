@@ -27,6 +27,8 @@ public class EventLogService
             log.setName(eventName);
             log.setPayload(requestData);
             return eventRepository.save(log);
+            //event service
+            //this is service class for events
         }
         catch (JsonParseException  e)
         {
