@@ -28,7 +28,10 @@ public class EventLogService
             log.setPayload(requestData);
             return eventRepository.save(log);
             //event service
+<<<<<<< Updated upstream
             //this is service class for events
+=======
+>>>>>>> Stashed changes
         }
         catch (JsonParseException  e)
         {
